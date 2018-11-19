@@ -14,7 +14,7 @@
 	<ul>
 		<c:forEach items="${dept.employees}" var = "emp">
 			<li>
-				${emp.employeeName} - ${emp.job}
+				${emp.employeeName} - ${emp.job}   
 			</li>
 		</c:forEach>
 	</ul>
