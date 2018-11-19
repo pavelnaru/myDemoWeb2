@@ -10,14 +10,14 @@
 <body>
 <h2>Departments and employees</h2>
 <c:forEach items = "${departments}" var="dept">
-<h3>${dept.getDeptName()}</h3>
-<ul>
-	<c:forEach items="${dept.employees}" var = "emp">
-		<li>
-			${emp.employeeName} - ${emp.job}
-		</li>
-	</c:forEach>
-</ul>
+	<h3>${dept.getDeptName()}</h3>
+	<ul>
+		<c:forEach items="${dept.employees}" var = "emp">
+			<li>
+				${emp.employeeName} - ${emp.job}
+			</li>
+		</c:forEach>
+	</ul>
 </c:forEach>
 </body>
 </html>
